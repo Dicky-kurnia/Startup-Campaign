@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b9000c4-51c6-4768-a123-ad3f710ac3ec" name="Changes" comment="">
+    <list default="true" id="9b9000c4-51c6-4768-a123-ad3f710ac3ec" name="Changes" comment="feat: Login endpoint">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handler/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler/user.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/input.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/input.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/repository.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/service.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +81,21 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Login endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Login endpoint" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
