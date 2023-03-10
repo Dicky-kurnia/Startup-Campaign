@@ -1,6 +1,7 @@
 package main
 
 import (
+	"StartUp-Campaign/auth"
 	"StartUp-Campaign/handler"
 	"StartUp-Campaign/user"
 	"github.com/gin-gonic/gin"
@@ -17,8 +18,8 @@ func main() {
 
 	userRepository := user.NewRepository(db)
 	userService := user.NewService(userRepository)
-	userHandler := handler.NewUserHandler(userService)
-
+	authService := auth.NewService()
+	userHandler := handler.NewUserHandler(userService, authService)
 	router := gin.Default()
 	api := router.Group("/api/v1")
 
